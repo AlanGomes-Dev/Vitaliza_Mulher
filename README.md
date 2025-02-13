@@ -70,5 +70,5 @@
 <img src="https://github.com/AlanGomes-Dev/Vitaliza_Mulher/blob/main/img/responsivo1.png">
 <img src="https://github.com/AlanGomes-Dev/Vitaliza_Mulher/blob/main/img/responsivo2.png">
 <br>
-<br>
+<h3>Conclusão</h3>
 <p>O projeto <strong>Vitaliza Mulher</strong> tem como objetivo principal empoderar mulheres por meio da informação, suporte emocional e ferramentas práticas para o autocuidado. Ele resolve problemas reais, como a falta de acesso a informações confiáveis, a dificuldade em acompanhar a saúde e a falta de suporte emocional e profissional. O público-alvo é amplo, mas focado em mulheres que buscam melhorar sua qualidade de vida e saúde. Com um cronograma bem estruturado, o projeto pode ser implementado de forma eficiente, trazendo impactos positivos para a vida das usuárias.</p>
