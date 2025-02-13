@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde das Mulheres</title>
+    <link rel="icon" href="./icons/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <header class="py-3">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/flor.jpeg" alt="Vitaliza Mulher" class="logo">
+                    <div>
+                        <div class="site-name">Vitaliza Mulher</div>
+                        <div class="slogan">Sua saúde, nossa prioridade</div>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <div class="me-3">
+                        <span>Ainda não é cadastrado?</span>
+                        <a href="/cadastro.html" class="btn btn-cadastrar ms-2">CADASTRAR</a>
+                    </div>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="O que procura?">
+                        <!-- Botão de Login -->
+                        <button type="button" class="btn btn-login" data-bs-toggle="modal" data-bs-target="#loginModal">
+                            LOGIN
+                        </button>
+
+                        <!-- Modal de Login -->
+                        <div class="modal fade login-modal" id="loginModal" tabindex="-1"
+                            aria-labelledby="loginModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body p-4">
+                                        <form id="loginForm">
+                                            <div class="mb-3">
+                                                <label for="email" class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="email" required>
+                                            </div>
+                                            <div class="mb-4">
+                                                <label for="password" class="form-label">Senha</label>
+                                                <input type="password" class="form-control" id="password" required>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                                <div class="form-check">
+                                                    <input type="checkbox" class="form-check-input" id="remember">
+                                                    <label class="form-check-label" for="remember">Lembrar-me</label>
+                                                </div>
+                                                <a href="#" class="forgot-password">Esqueceu a senha?</a>
+                                            </div>
+                                            <button type="submit" class="btn btn-submit mb-3">Entrar</button>
+                                            <div class="text-center">
+                                                <span>Não tem uma conta? </span>
+                                                <a href="/cadastro.html" class="register-link">Cadastre-se</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">MENU PRINCIPAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="saude-das-mulheres.html">SAÚDE DAS MULHERES</a>
+                        </li>
+                        <!-- Menu com submenu -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                SERVIÇOS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="carreira.html">Trilha Profissional</a>
+                                </li>
+                                <li><a class="dropdown-item" href="apoio-emocional.html">Apoio Emocional</a>
+                                </li>
+                                <li><a class="dropdown-item" href="consultas-virtuais.html">Consultas Virtuais</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Outro Serviço</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quem-somos.html">QUEM SOMOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="vaccine-header">
+        <div class="container">
+            <h1 class="text-center mb-4">Saúde das Mulheres</h1>
+            <p class="text-center">Consultas virtuais rápidas e acessíveis, onde e quando precisar!</p>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="category-filter">
+            <h5 class="mb-3">Filtrar por categoria:</h5>
+            <div class="d-flex flex-wrap">
+                <button class="category-btn active">Todas</button>
+                <button class="category-btn">Exames de imagem</button>
+                <button class="category-btn">Ginecológicos</button>
+                <button class="category-btn">Laboratoriais</button>
+                <button class="category-btn">Cardiológico</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="disease-card">
+                    <img src="/img/ultrassom-transvaginal.jpg" alt="Ultrassonografia">
+                    <h4>Ultrassom transvaginal</h4>
+                    <p>Avalia a saúde do aparelho reprodutor feminino, como útero, trompas e ovários.</p>
+                    <button class="btn btn-primary w-100">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="disease-card">
+                    <img src="/img/mamografia-doi.jpeg" alt="Mamografia">
+                    <h4>Mamografia</h4>
+                    <p>Indicada para mulheres 35+ com histórico ou 40+ sem histórico de câncer de mama.</p>
+                    <button class="btn btn-primary w-100">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="disease-card">
+                    <img src="/img/Densitometria-ossea.png" alt="Densitometria óssea">
+                    <h4>Densitometria óssea </h4>
+                    <p>Avalia a saúde óssea da mulher, fornecendo informações sobre sua resistência e fragilidade.</p>
+                    <button class="btn btn-primary w-100">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="disease-card">
+                    <img src="/img/Papanicolau.jpg" alt="Papanicolau (exame preventivo)">
+                    <h4>Papanicolau (exame preventivo)</h4>
+                    <p>Exame ginecológico para detectar alterações no colo do útero.</p>
+                    <button class="btn btn-primary w-100">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="disease-card">
+                    <img src="/img/hemograma.jpeg" alt="Hemograma">
+                    <h4>Hemograma</h4>
+                    <p>É o exame que avalia as principais linhagens de células do sangue: hemácias, leucócitos e
+                        plaquetas.</p>
+                    <button class="btn btn-primary w-100">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="disease-card">
+                    <img src="/img/eletrocardiograma.jpg" alt="Eletrocardiograma (ECG)">
+                    <h4>Eletrocardiograma (ECG)</h4>
+                    <p>É um exame cardiológico que registra a atividade elétrica do coração.</p>
+                    <button class="btn btn-primary w-100">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" style="background-color: #FFE6F2; padding: 20px 0;">
+        <div class="container">
+            <div class="row">
+                <!-- Páginas (Lado Esquerdo) -->
+                <div class="col-md-3">
+                    <h5>Páginas</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="quem-somos.html">Quem Somos</a></li>
+                        <li><a href="apoio-emocional.html">Apoio Emocional</a></li>
+                        <li><a href="carreira.html">Trilha Profissional</a></li>
+                        <li><a href="consultas-virtuais.html">Consultas Virtuais</a></li>
+                        <li><a href="saude-das-mulheres.html">Saúde das Mulheres</a></li>
+                        <li><a href="vacinacao.html">Vacinação</a></li>
+                        <li><a href="cadastro.html">Cadastro</a></li>
+                        <li><a href="calculadora-ferramentas.html">Calculadora e Ferramentas</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contato (Centro) -->
+                <div class="col-md-3">
+                    <h5>Contato</h5>
+                    <p><i class="bi bi-telephone"></i> +55 91 9800-0000</p>
+                    <p><i class="bi bi-envelope"></i> vitalizamulher@gmail.com</p>
+                </div>
+
+                <!-- Redes Sociais (Lado Direito) -->
+                <div class="col-md-3">
+                    <h5>Redes Sociais</h5>
+                    <div class="social-icons">
+                        <a href="#" class="me-3"><i class="bi bi-facebook" style="font-size: 24px;"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-instagram" style="font-size: 24px;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Links (Lado Direito) -->
+                <div class="col-md-3">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Políticas de Privacidade</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
