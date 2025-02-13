@@ -69,4 +69,4 @@
 <p>O design da plataforma foi desenvolvido utilizando <strong>Bootstrap</strong> e <strong>CSS</strong> para garantir um layout <strong>responsivo</strong> e adaptável a diferentes dispositivos, proporcionando uma experiência amigável e acessível para todas as usuárias. 📱💻</p>
 
 <img src="https://github.com/AlanGomes-Dev/Vitaliza_Mulher/blob/main/img/responsivo1.png">
-<img src="https://github.com/AlanGomes-Dev/Vitaliza_Mulher/blob/main/img/responsivo1.png">
+<img src="https://github.com/AlanGomes-Dev/Vitaliza_Mulher/blob/main/img/responsivo2.png">
