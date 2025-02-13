@@ -1,4 +1,4 @@
- <div class="container">
+
         <h1>Vitaliza Mulher 🌸</h1>
         <img src="https://github.com/AlanGomes-Dev/Vitaliza_Mulher/blob/main/img/logo.png">        
         
@@ -64,7 +64,7 @@
             <li>✔️ BRModelo para modelagem do banco de dados.</li>
             <li>✔️ Git para controle de versão.</li>
         </ul>
-    </div>
+  
 <h2>🎨 Estilos</h2>
         <p>O design da plataforma foi desenvolvido utilizando <strong>Bootstrap</strong> e <strong>CSS</strong> para garantir um layout <strong>responsivo</strong> e adaptável a diferentes dispositivos, proporcionando uma experiência amigável e acessível para todas as usuárias. 📱💻</p>
 
